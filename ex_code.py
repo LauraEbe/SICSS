@@ -9,8 +9,9 @@ print('Hello SICSS summer school 2024!')
 
 import random 
 # Not recommended
+dice_sides = 5
 def roll_dice():
-    return random.randint(0, 4)  
+    return random.randint(0, dice_sides)  
             # what is 4 supposed to represent?
 
 # Recommended
@@ -33,6 +34,6 @@ def update_df(df: pd.DataFrame,
               remarks: List[str] = []
               ) -> pd.DataFrame:
     
-    
+print("finished!")
     
     
